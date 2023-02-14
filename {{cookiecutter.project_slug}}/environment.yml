@@ -1,0 +1,12 @@
+name: "{{ cookiecutter.project_name }}"
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.11
+  - pre-commit
+  - root
+  - jupyter
+  - numpy
+  - matplotlib
+  - pytest>=7.2.1
